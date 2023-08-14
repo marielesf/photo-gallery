@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { PhotoService } from '/services/photoService';
-import styles from '../styles/Home.module.css';
 
 export default function PhotoBox() {
   function ImageGridItem(image) {
@@ -8,7 +7,6 @@ export default function PhotoBox() {
       gridColumn: `span ${getSpanEstimate(image.width, image.height)}`,
       gridRow: `span ${getSpanEstimate(image.height, image.width)}`,
     };
-
     return style;
   }
 

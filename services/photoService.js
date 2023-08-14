@@ -21,6 +21,9 @@ import paint1 from '/assets/paint1.jpg';
 import paint2 from '/assets/paint2.jpg';
 import sunset2 from '/assets/sunset2.jpg';
 import sunset3 from '/assets/sunset3.jpg';
+import paint from '/assets/paint.jpg';
+import paint6 from '/assets/paint6.jpg';
+import sunset1 from '/assets/sunset1.jpg';
 
 const getAll = () => {
   return [
@@ -28,162 +31,131 @@ const getAll = () => {
       id: 1,
       imgPath: home1,
       alternativeText: 'Abandoned House with garden',
-      width: '50%',
-      height: '250px',
     },
     {
       id: 2,
       imgPath: home2,
       alternativeText: 'old house',
-      width: '370px',
-      height: '250px',
     },
     {
       id: 3,
       imgPath: sunset3,
       alternativeText: 'sea sunset',
-      width: '370px',
-      height: '250px',
     },
     {
       id: 4,
       imgPath: mountain1,
       alternativeText: 'mountain in a cold day',
-      width: '370px',
-      height: '250px',
     },
     {
       id: 5,
       imgPath: mountain2,
       alternativeText: 'mountain sunset',
-      width: '370px',
-      height: '250px',
     },
     {
       id: 6,
       imgPath: mountain3,
       alternativeText: 'mountain vale sunset',
-      width: '370px',
-      height: '250px',
     },
     {
       id: 7,
       imgPath: mountain4,
       alternativeText: 'mountain surface',
-      width: '370px',
-      height: '250px',
     },
     {
       id: 8,
       imgPath: mountain5,
       alternativeText: 'mountain with snow',
-      width: '370px',
-      height: '250px',
     },
     {
       id: 9,
       imgPath: mountain6,
       alternativeText: 'mountain and trees',
-      width: '170px',
-      height: '150px',
     },
     {
       id: 10,
       imgPath: paint2,
       alternativeText: 'old paint wall',
-      width: '170px',
-      height: '150px',
     },
     {
       id: 11,
       imgPath: nature1,
       alternativeText: 'orange butterfly in a leaf',
-      width: '170px',
-      height: '150px',
     },
     {
       id: 12,
       imgPath: nature2,
       alternativeText: 'florest and a river',
-      width: '170px',
-      height: '150px',
     },
     {
       id: 13,
       imgPath: nature4,
       alternativeText: 'bridge, florest and a river',
-      width: '170px',
-      height: '150px',
     },
     {
       id: 14,
       imgPath: nature5,
       alternativeText: 'lake with mountains',
-      width: '170px',
-      height: '150px',
     },
     {
       id: 15,
       imgPath: nature6,
       alternativeText: 'wooden walkway close the ocean ',
-      width: '170px',
-      height: '150px',
     },
     {
       id: 16,
       imgPath: nature7,
       alternativeText: 'trees and a bridge',
-      width: '170px',
-      height: '150px',
     },
     {
       id: 17,
       imgPath: nature8,
       alternativeText: 'flowers',
-      width: '170px',
-      height: '150px',
     },
     {
       id: 18,
       imgPath: nature9,
       alternativeText: 'sand',
-      width: '170px',
-      height: '150px',
     },
     {
       id: 19,
       imgPath: nature10,
       alternativeText: 'mountain over the clouds',
-      width: '170px',
-      height: '150px',
     },
     {
       id: 20,
       imgPath: nature11,
       alternativeText: 'Vitoria-regia under water',
-      width: '170px',
-      height: '150px',
     },
     {
       id: 21,
       imgPath: paint1,
       alternativeText: 'dead flowers',
-      width: '170px',
-      height: '150px',
     },
     {
       id: 22,
       imgPath: sunset2,
       alternativeText: 'dead flowers',
-      width: '170px',
-      height: '150px',
     },
     {
       id: 23,
       imgPath: home3,
       alternativeText: 'castle door',
-      width: '170px',
-      height: '150px',
+    },
+    {
+      id: 24,
+      imgPath: paint,
+      alternativeText: 'dark cloud',
+    },
+    {
+      id: 25,
+      imgPath: paint6,
+      alternativeText: 'boat in a blue ocean',
+    },
+    {
+      id: 26,
+      imgPath: sunset1,
+      alternativeText: 'sunset in the sea',
     },
   ];
 };
