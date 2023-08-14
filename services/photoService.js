@@ -18,6 +18,9 @@ import nature9 from '/assets/nature9.jpg';
 import nature10 from '/assets/nature10.jpg';
 import nature11 from '/assets/nature11.jpg';
 import paint1 from '/assets/paint1.jpg';
+import paint2 from '/assets/paint2.jpg';
+import sunset2 from '/assets/sunset2.jpg';
+import sunset3 from '/assets/sunset3.jpg';
 
 const getAll = () => {
   return [
@@ -37,8 +40,8 @@ const getAll = () => {
     },
     {
       id: 3,
-      imgPath: home3,
-      alternativeText: 'castle door',
+      imgPath: sunset3,
+      alternativeText: 'sea sunset',
       width: '370px',
       height: '250px',
     },
@@ -86,8 +89,8 @@ const getAll = () => {
     },
     {
       id: 10,
-      imgPath: mountain6,
-      alternativeText: 'mountain and trees',
+      imgPath: paint2,
+      alternativeText: 'old paint wall',
       width: '170px',
       height: '150px',
     },
@@ -165,6 +168,20 @@ const getAll = () => {
       id: 21,
       imgPath: paint1,
       alternativeText: 'dead flowers',
+      width: '170px',
+      height: '150px',
+    },
+    {
+      id: 22,
+      imgPath: sunset2,
+      alternativeText: 'dead flowers',
+      width: '170px',
+      height: '150px',
+    },
+    {
+      id: 23,
+      imgPath: home3,
+      alternativeText: 'castle door',
       width: '170px',
       height: '150px',
     },
