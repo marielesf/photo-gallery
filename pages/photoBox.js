@@ -1,28 +1,22 @@
 import Image from 'next/image';
 import { PhotoService } from '../services/photoService';
+import styles from '../styles/Home.module.css';
 
 export default function PhotoBox() {
-  function ImageGridItem(image) {
-    const style = {
-      gridColumn: `span ${getSpanEstimate(image.width, image.height)}`,
-      gridRow: `span ${getSpanEstimate(image.height, image.width)}`,
-    };
-    return style;
-  }
-
-  function getSpanEstimate(var1, var2) {
-    if (var1 - var2 > 2000) {
-      return 2;
-    }
-    return 1;
+  function imageGridItem(image) {
+    return image.width - image.height > 2000
+      ? styles.gridColumn
+      : image.height - image.width > 2000
+      ? styles.gridRow
+      : styles.imgGrid;
   }
 
   return (
     <>
       {PhotoService?.getAll()?.map((item) => (
         <div
+          className={imageGridItem(item.imgPath)}
           data-testid={`image-box-${item.id}`}
-          style={ImageGridItem(item.imgPath)}
           key={item.id}
         >
           <Image
