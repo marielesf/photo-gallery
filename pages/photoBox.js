@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { PhotoService } from '/services/photoService';
+import { PhotoService } from '../services/photoService';
 
 export default function PhotoBox() {
   function ImageGridItem(image) {
@@ -20,7 +20,11 @@ export default function PhotoBox() {
   return (
     <>
       {PhotoService?.getAll()?.map((item) => (
-        <div style={ImageGridItem(item.imgPath)} key={item.id}>
+        <div
+          data-testid={`image-box-${item.id}`}
+          style={ImageGridItem(item.imgPath)}
+          key={item.id}
+        >
           <Image
             src={item.imgPath}
             placeholder="blur" //show fisrt a blur image
@@ -28,7 +32,6 @@ export default function PhotoBox() {
             alt={item.alternativeText}
             loading="lazy"
           />
-          <br />
         </div>
       ))}
     </>
