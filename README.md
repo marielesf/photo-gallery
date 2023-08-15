@@ -7,14 +7,14 @@ The photo-Gallery goal is to display at least 20 high-resolution images.
 </h4>
 
 
-##Getting Started
-This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
+## Getting Started
+This application was create using the command: npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
 
-###Pre-requisites
+### Pre-requisites
 Install:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 
-###Installation  
+### Installation  
 Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
 
 ```bash
@@ -35,11 +35,20 @@ $ npm run dev
 
 ### 🛠 Tecnologias
 
-As seguintes ferramentas foram usadas na construção do projeto:
+The tools used in the project:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
-- [nextjs]([https://reactnative.dev/](https://nextjs.org/learn/basics/create-nextjs-app/setup)https://nextjs.org/learn/basics/create-nextjs-app/setup)
+- [nextjs](https://nextjs.org/learn/basics/create-nextjs-app/setup)
 - [testing-library](https://testing-library.com/)
 - [eslint](https://eslint.org/)
+
+
+example  
+![image](https://github.com/marielesf/photo-gallery/assets/17839848/d7038171-1f77-4001-907a-72d0767c3f09)  
+
+Result  
+![image](https://github.com/marielesf/photo-gallery/assets/17839848/4d3850c6-8dab-4569-863d-389f10771262)
+
+
 
