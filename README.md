@@ -3,7 +3,7 @@
 The photo-Gallery goal is to display at least 20 high-resolution images. 
 
 <h4 align="center"> 
-	🚧  Photo-Gallery - Em construção...  🚧
+	🚧  Photo-Gallery - Under contruction...  🚧
 </h4>
 
 
@@ -33,7 +33,7 @@ $ npm run dev
 # Access  <http://localhost:3000>
 ```
 
-### 🛠 Tecnologias
+### 🛠 Tech
 
 The tools used in the project:
 
