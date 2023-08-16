@@ -47,6 +47,13 @@ The tools used in the project:
 - [eslint](https://eslint.org/)
 - Find js improvements
 
+### Next.js supports modern browsers with zero configuration.
+
+Chrome 64+
+Edge 79+
+Firefox 67+
+Opera 51+
+Safari 12+
 
 example  
 ![image](https://github.com/marielesf/photo-gallery/assets/17839848/d7038171-1f77-4001-907a-72d0767c3f09)  
