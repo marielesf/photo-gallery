@@ -103,11 +103,6 @@ const getAll = () => {
       alternativeText: 'wooden walkway close the ocean ',
     },
     {
-      id: 16,
-      imgPath: nature7,
-      alternativeText: 'trees and a bridge',
-    },
-    {
       id: 17,
       imgPath: nature8,
       alternativeText: 'flowers',
@@ -156,6 +151,11 @@ const getAll = () => {
       id: 26,
       imgPath: sunset1,
       alternativeText: 'sunset in the sea',
+    },
+    {
+      id: 16,
+      imgPath: nature7,
+      alternativeText: 'trees and a bridge',
     },
   ];
 };
