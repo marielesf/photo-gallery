@@ -19,7 +19,7 @@ Below is an example of how you can instruct your audience on installing and sett
 
 ```bash
 # Clone the repo  
-$ git clone [https://github.com/your_username_/Project-Name.git](https://github.com/marielesf/photo-gallery.git)  
+$ git clone (https://github.com/marielesf/photo-gallery.git)  
 
 # Access folder project
 $ cd photo-gallery
