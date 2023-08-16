@@ -39,9 +39,13 @@ The tools used in the project:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
+- flexible, popular
 - [nextjs](https://nextjs.org/learn/basics/create-nextjs-app/setup)
+- SSR, Image Tag, automatic image optimization, WebP - decreases page sizes and improves performance.
 - [testing-library](https://testing-library.com/)
+-  render a component and verify data
 - [eslint](https://eslint.org/)
+- Find js improvements
 
 
 example  
